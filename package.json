@@ -1,17 +1,31 @@
 {
-  "name": "just-tech-news",
+  "name": "newsfeed-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "News based site",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "rolanduwxcc",
+  "license": "MIT",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.5"
-  }
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolanduwxcc/just-tech-news.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rolanduwxcc/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/rolanduwxcc/just-tech-news#readme"
 }
